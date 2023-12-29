@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Poppins:wght@100;400&display=swap');
+*{
+    font-family: "Poppins", "sans-serif";
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+body{
+    background-color: rgb(4, 65, 79);
+}
+.container{
+    color: #fff;
+    background-color: grey;
+    max-width: 955px;
+    margin: auto;
+    height: 50vh;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 33px; 
+    border-radius: 20px;
+}
+.container::-webkit-scrollbar {
+    width: 20px; 
+  }
+.message{
+    background-color: rgb(77, 75, 75);
+    width: 24%;
+    margin: 17px 12px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    text-align: center;
+    margin: auto;
+    display: block;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+    width: 91%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 39px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(46, 250, 46);
+    font-weight: bold;
+    margin: 5px;
+}
